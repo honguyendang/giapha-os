@@ -3,13 +3,13 @@ version: alpha
 name: GiaPha-OS
 description: A modern, elegant, and secure open-source family tree platform designed for Vietnamese families to preserve their lineage and heritage.
 colors:
-  primary: "#1c1917"
-  secondary: "#57534e"
-  tertiary: "#d97706"
-  neutral: "#fafaf9"
-  surface: "#ffffff"
-  border: "#e7e5e4"
-  error: "#dc2626"
+  primary: '#1c1917'
+  secondary: '#57534e'
+  tertiary: '#d97706'
+  neutral: '#fafaf9'
+  surface: '#ffffff'
+  border: '#e7e5e4'
+  error: '#dc2626'
 typography:
   headline-display:
     fontFamily: Playfair Display
@@ -57,7 +57,7 @@ rounded:
   md: 8px
   lg: 12px
   xl: 16px
-  "3xl": 24px
+  '3xl': 24px
   full: 9999px
 spacing:
   base: 16px
@@ -66,41 +66,41 @@ spacing:
   md: 16px
   lg: 24px
   xl: 32px
-  "2xl": 48px
-  "3xl": 64px
+  '2xl': 48px
+  '3xl': 64px
   gutter: 24px
   margin: 32px
 components:
   button-primary:
-    backgroundColor: "{colors.primary}"
-    textColor: "{colors.surface}"
-    rounded: "{rounded.xl}"
+    backgroundColor: '{colors.primary}'
+    textColor: '{colors.surface}'
+    rounded: '{rounded.xl}'
     padding: 16px
   button-primary-hover:
-    backgroundColor: "#292524"
+    backgroundColor: '#292524'
   button-amber:
-    backgroundColor: "{colors.tertiary}"
-    textColor: "{colors.primary}"
-    rounded: "{rounded.full}"
+    backgroundColor: '{colors.tertiary}'
+    textColor: '{colors.primary}'
+    rounded: '{rounded.full}'
     padding: 10px
   button-outline:
-    backgroundColor: "transparent"
-    textColor: "{colors.secondary}"
-    rounded: "{rounded.xl}"
+    backgroundColor: 'transparent'
+    textColor: '{colors.secondary}'
+    rounded: '{rounded.xl}'
     padding: 16px
   button-outline-hover:
-    backgroundColor: "{colors.neutral}"
+    backgroundColor: '{colors.neutral}'
   divider:
-    backgroundColor: "{colors.border}"
+    backgroundColor: '{colors.border}'
     height: 1px
   badge-error:
-    backgroundColor: "{colors.error}"
-    textColor: "{colors.surface}"
-    rounded: "{rounded.sm}"
+    backgroundColor: '{colors.error}'
+    textColor: '{colors.surface}'
+    rounded: '{rounded.sm}'
     padding: 4px 8px
   card-feature:
-    backgroundColor: "rgba(255, 255, 255, 0.7)"
-    rounded: "{rounded.3xl}"
+    backgroundColor: 'rgba(255, 255, 255, 0.7)'
+    rounded: '{rounded.3xl}'
     padding: 32px
 ---
 
@@ -131,9 +131,9 @@ The palette is rooted in soft, warm neutrals, high-contrast primary dark slate, 
 
 The type system pairs the elegance of **Playfair Display** (for traditional editorial headings and branding) with the readability of **Inter** (for UI elements, dense data displays, and complex family tree structures).
 
-- **Branding & Headings:** Set in *Playfair Display* with robust weights to create a sense of heritage, lineage, and permanence.
-- **Body & Controls:** Set in *Inter* to ensure crisp legibility at small sizes, particularly within name nodes on the family chart.
-- **Data & Relationships:** Capitalized *Inter* is used for relational tags (e.g., "CHỒNG", "VỢ") with slight letter-spacing for premium technical clarity.
+- **Branding & Headings:** Set in _Playfair Display_ with robust weights to create a sense of heritage, lineage, and permanence.
+- **Body & Controls:** Set in _Inter_ to ensure crisp legibility at small sizes, particularly within name nodes on the family chart.
+- **Data & Relationships:** Capitalized _Inter_ is used for relational tags (e.g., "CHỒNG", "VỢ") with slight letter-spacing for premium technical clarity.
 
 ---
 
@@ -171,9 +171,9 @@ Soft, consistent curves bring warmth and modern approachability to the digital a
 Style patterns for primary component atoms:
 
 - **Buttons:**
-  - *Primary Button:* Styled in deep stone (`#1C1917`) with rounded-2xl curves, high-contrast white text, and hover translation effects.
-  - *Action Badge Button:* Styled in amber (`#D97706`) with rounded-full curves for focal actions (e.g., adding members, sharing tree).
-  - *Outline Button:* Transparent background, thin borders (`border-stone-200`), stone-600 text, and a transition to limestone background on hover.
+  - _Primary Button:_ Styled in deep stone (`#1C1917`) with rounded-2xl curves, high-contrast white text, and hover translation effects.
+  - _Action Badge Button:_ Styled in amber (`#D97706`) with rounded-full curves for focal actions (e.g., adding members, sharing tree).
+  - _Outline Button:_ Transparent background, thin borders (`border-stone-200`), stone-600 text, and a transition to limestone background on hover.
 - **FamilyNodeCard:**
   - Standard card structure with size scaling (`w-20` on mobile up to `w-28` on desktop).
   - Semi-transparent white background with active blur and a smooth 1px white border.
